@@ -61,10 +61,12 @@ $(document).ready(function() {
     var blob = $("input:radio[name=blob]:checked").val();
     if(!name){
       alert("Please enter your name");
+      event.preventDefault();
       return;
     }
     if((!develop)||(!size)||(!operatingSystem)||(!gemstone)||(!blob)){
       alert(name +", Please answer all of the questions");
+      event.preventDefault();
       return;
     }
     $('#result').remove();

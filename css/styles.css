@@ -13,6 +13,7 @@ body{
   padding-top:15px;
   padding-bottom: 15px;
   background-color: #123552;
+  border-radius: 20px;
 }
 .form-control{
   background-color: #123552;
@@ -27,6 +28,7 @@ body{
   background-color: #2A4F6E;
   padding: 10px;
   width: auto;
+  border-radius: 20px;
 }
 #hiddenMessage, #result{
   display: none;
