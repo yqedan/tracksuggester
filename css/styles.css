@@ -20,13 +20,15 @@ body{
   text-align: center;
 }
 #welcome{
+  text-align: center;
+}
+#welcome, #information{
   color: #042037;
   font-size: 30px;
   background-color: #2A4F6E;
   padding: 10px;
   width: auto;
   border-radius: 5px;
-  text-align: center;
 }
 #hiddenMessage{
   display: none;
@@ -57,7 +59,7 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  #welcome{
+  #welcome, #information{
     font-size: 20px;
   }
 }
