@@ -12,6 +12,7 @@ _Fill in your name and answer all questions. Your result will display below._
 ## Setup/Installation Requirements
 
 _Clone the repo and open up index.html to view in your web browser._
+_Link to site on gh-pages: https://yqedan.github.io/tracksuggester_
 
 ## Known Bugs
 
