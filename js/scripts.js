@@ -60,11 +60,11 @@ $(document).ready(function() {
     var gemstone = $("input:radio[name=gem]:checked").val();
     var blob = $("input:radio[name=blob]:checked").val();
     if(!name){
-      alert("please enter your name");
+      alert("Please enter your name");
       return;
     }
     if((!develop)||(!size)||(!operatingSystem)||(!gemstone)||(!blob)){
-      alert("please answer all of the questions");
+      alert(name +", Please answer all of the questions");
       return;
     }
     $('#result').remove();
@@ -77,6 +77,7 @@ $(document).ready(function() {
     $("#track").text(track);
     $("#nameHere").text(name);
     $("#hiddenMessage").show();
+    $('#result').slideDown();
     event.preventDefault();
   });
 });
