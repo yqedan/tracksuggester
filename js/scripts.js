@@ -38,20 +38,27 @@ var blobFun = function(yesOrNo,trackSuggested){
   else
     return trackSuggested;
 }
+var displayImage = function(trackSuggested){
+  return "<img id='result'src='./img/java.png'class='img-responsive'>"
+}
 $(document).ready(function() {
   $("form").submit(function(event){
+    var name = $('#name').val();
     var track = "";
     var develop = $("input:radio[name=develop]:checked").val();
     var size = $("input:radio[name=size]:checked").val();
     var operatingSystem = $("input:radio[name=os]:checked").val();
     var gemstone = $("input:radio[name=gem]:checked").val();
     var blob = $("input:radio[name=blob]:checked").val();
+    $('#result').remove();
     track = developFun(develop);
     track = companyFun(size,track);
     track = operatingSystemFun(operatingSystem,track);
     track = gemstoneFun(gemstone,track);
     track = blobFun(blob,track);
+    $("#answer").after(displayImage(track));
     $("#track").text(track);
+    $("#nameHere").text(name);
     $("#hiddenMessage").show();
     event.preventDefault();
   });
