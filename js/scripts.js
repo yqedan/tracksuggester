@@ -51,7 +51,7 @@ $(document).ready(function() {
     track = operatingSystemFun(operatingSystem,track);
     track = gemstoneFun(gemstone,track);
     track = blobFun(blob,track);
-    alert(track);
+    $("#track").text(track);
     $("#hiddenMessage").show();
     event.preventDefault();
   });

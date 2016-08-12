@@ -1,3 +1,21 @@
+h1{
+  color: #042037;
+  background-color: #2A4F6E;
+  padding: 10px;
+}
+h3{
+  color: #718DA5;
+}
+label{
+  color: #718DA5;
+}
+body{
+  background-color: #2A4F6E;
+}
+.container{
+  margin-top: 15px;
+  background-color: #123552;
+}
 #hiddenMessage{
   display: none;
 }
