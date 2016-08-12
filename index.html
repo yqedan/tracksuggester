@@ -5,7 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Template</title>
+    <title>Track Suggester</title>
   </head>
   <body>
     <div class="container">
@@ -24,8 +24,73 @@
               Back End
             </label>
           </div>
+          <h3>What size company would you like to work for?</h3>
+          <div class="radio">
+              <label>
+                <input type="radio" name="size" value="large">
+                Large
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="medium">
+                Medium
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="small">
+                Small
+              </label>
+            </div>
+            <h3>What operating system do you like to develop on?</h3>
+            <div class="radio">
+                <label>
+                  <input type="radio" name="op" value="mac">
+                  Mac
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size" value="pc">
+                  PC
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size" value="linux">
+                  Linux
+                </label>
+              </div>
+            <h3>Do you like gemstones?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gem" value="yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gem" value="no">
+                No
+              </label>
+            </div>
+            <h3>Do you like coffee?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="yes">
+                Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="no">
+                No
+              </label>
+            </div>
           <button type="submit" class="btn">Enter</button>
       </form>
+      <br>
       <p id="hiddenMessage">You should take the <span id="track"></span> track!</p>
     </div>
   </body>

@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("form").submit(function(){
-    alert("test");
+  $("form").submit(function(event){
+    $("#hiddenMessage").show();
+    event.preventDefault();
   });
 });
