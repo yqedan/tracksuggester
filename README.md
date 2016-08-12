@@ -1,12 +1,13 @@
 # _Track Suggester_
 
-#### _Track Suggester, August, 12th, 2016_
+#### _August, 12th, 2016_
 
 #### By _**Yusuf Qedan**_
 
 ## Description
 
 _This is a web page of my track suggester written in JavaScript and uses the jQuery framework._
+_Fill in your name and answer all questions. Your result will display below._
 
 ## Setup/Installation Requirements
 
@@ -25,6 +26,8 @@ _Any issues email me at yusuf9191@gmail.com_
 _HTML, CSS, JavaScript, bootstrap framework, jQuery framework._
 
 ### License
+
+*Images used on this page are not mine and links may break as they are not local files*
 
 *This software is licensed under the MIT license*
 
