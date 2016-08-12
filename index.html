@@ -9,7 +9,24 @@
   </head>
   <body>
     <div class="container">
-      <p>Hello World!</p>
+      <h1>Welcome to the Epicodus track suggester site!</h1>
+      <form>
+        <h3>What type of development appeals to you?</h3>
+        <div class="radio">
+            <label>
+              <input type="radio" name="develop" value="front">
+              Front End
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="develop" value="back">
+              Back End
+            </label>
+          </div>
+          <button type="submit" class="btn">Enter</button>
+      </form>
+      <p id="hiddenMessage">You should take the <span id="track"></span> track!</p>
     </div>
   </body>
 </html>
